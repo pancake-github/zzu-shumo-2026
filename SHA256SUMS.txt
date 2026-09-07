@@ -1,1 +1,2 @@
 7fdbc6631300127c93081bf5a98fe5a0091cf430970957d1073cdce106ddf9f5  zzu-shumo-2026-v1.0.0-encrypted.zip
+1f5cb3cbbe07f40b4c2117bbe6e128f6a8f1a77122ce33ba9185fae51ddd70ad  zzu-shumo-2026-v1.1.0-encrypted.zip
