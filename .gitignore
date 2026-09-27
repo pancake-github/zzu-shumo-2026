@@ -1,0 +1,12 @@
+# 本地Python运行产物。
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+# 本地原始语料和个人配置不公开。
+corpus/
+local-data/
+.env
+.env.*
+# 发布压缩包在仓库外生成。
+dist/

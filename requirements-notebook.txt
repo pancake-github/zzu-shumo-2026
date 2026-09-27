@@ -1,0 +1,4 @@
+# 用于执行和检查配套 Notebook；在已有 Jupyter 界面中选择此 Python 内核。
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8

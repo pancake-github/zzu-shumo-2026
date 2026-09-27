@@ -1,0 +1,81 @@
+{
+  "version": "1.1.0",
+  "date": "2026-09-07",
+  "skill": "zzu-shumo-2026",
+  "python": "3.12.4",
+  "environment": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.1",
+    "SciencePlots": "2.2.2",
+    "Pillow": "12.3.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0",
+    "python-docx": "1.2.0"
+  },
+  "notebook_code_cells_executed_in_order": 4,
+  "images": [
+    {
+      "file": "examples/outputs/figure_1.png",
+      "sha256": "42155b654b2e672f5f38d90c397b8136906eac53dda814c0445b9b891d61dcfb",
+      "pixels": [
+        3779,
+        2551
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "machine_status": "PASS",
+      "visual_review": "PASS"
+    },
+    {
+      "file": "examples/outputs/figure_2.png",
+      "sha256": "2f3872ad6294b7fcd72395c7599083e572d19116d141a12901dba8df536f37a1",
+      "pixels": [
+        4110,
+        2480
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "machine_status": "PASS",
+      "visual_review": "PASS"
+    },
+    {
+      "file": "examples/outputs/table_1.png",
+      "sha256": "1d10a75b1a73f9b3026d57897ca370662d6c862793f2a3af8f257bdd8f306433",
+      "pixels": [
+        4110,
+        1700
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "machine_status": "PASS",
+      "visual_review": "PASS"
+    }
+  ],
+  "word_table": {
+    "structure_checks_passed": 16,
+    "rendered_pages": 1,
+    "renderer": "Microsoft Word plus Poppler",
+    "visual_review": "PASS",
+    "fonts_verified": [
+      "SimSun",
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-ItalicMT"
+    ],
+    "bundled_libreoffice": "not available; Microsoft Word used for actual visual verification"
+  },
+  "font_probe": {
+    "mixed_chinese": "SimSun",
+    "latin_digits": "TimesNewRomanPSMT",
+    "quantity_symbols": "TimesNewRomanPS-ItalicMT",
+    "units": "TimesNewRomanPSMT",
+    "plain_and_math_missing_glyphs_rejected": true
+  },
+  "scope": "Layout and reproducibility examples, not modeling results. Other machines and future data require fresh rendering checks."
+}

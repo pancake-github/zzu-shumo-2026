@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "date": "2026-09-07",
+  "method_count_added": 6,
+  "quote_count_added": 8,
+  "unique_paper_count": 7,
+  "original25_entries_unchanged": true,
+  "original25_entries_sha256": "4eb9804fb1c3ae506c10ec0b31f4409885cb1b21cfa6b3a88082d59d2151e267",
+  "old10_deep_report_unchanged": true,
+  "new_entries_have_no_114_denominator": true,
+  "not_checked": [
+    "全部419篇的方法频次",
+    "选用论文正文实施",
+    "数值结果与代码复现",
+    "SPSSPRO在线运行"
+  ],
+  "quotes": [
+    {
+      "method_id": "M26",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 18,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "5686eb16de8bcb0880f3ce46bfd0d9c78cec81113a09022d1f3d4074879bba08",
+      "corpus_relative_path": "2015年研究生数学建模竞赛优秀论文选/C/C90047002.pdf",
+      "year": 2015,
+      "question": "C",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "论文利用FFT分析了一组测试数据中都有信道样本同一时刻的数据，得到了多普勒频谱，并提取了多普勒展宽。",
+      "purpose": "由信道观测提取频谱与多普勒展宽特征",
+      "context_whitespace_removed": "：针对第一问，论文首先基于MPOC算法，求解了多径信道的单位脉冲响应，并且基于多径信道的单位脉冲响应，提取了多径数目、多径时延、最大多径展宽、主多径平均功率、主多径功率方差等待选特征；针对多普勒展宽，论文利用FFT分析了一组测试数据中都有信道样本同一时刻的数据，得到了多普勒频谱，并提取了多普勒展宽。在提取多径数目与多普勒展宽时，论文利用数据中较小的点求平均构造噪声基底作为检测门限，将信号衰减15Db后，过噪声门限作为有效数据，以此来防止噪声数据被作为有效数据使用。但是利用MPOC算法求解了多径信道的单位脉冲响应，并且基于上述峰值检测方",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M26",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 407,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "23dfbdeb5af6468a92428c0171ccfd569b6571066837df96b1960f47248b1d1f",
+      "corpus_relative_path": "2025年研究生数学建模竞赛优秀论文选/C题优秀论文/C题-3-围岩裂隙精准识别与三维模型重构.pdf",
+      "year": 2025,
+      "question": "C",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "根据4层离散小波变换将其分离为不同尺度的成分",
+      "purpose": "将裂隙主轮廓残差分解为多尺度细节",
+      "context_whitespace_removed": "对问题三，单一参数模型难以表征其几何特性，且影响JRC值的精度，因此构建分层表征模型。首先采用扩展的傅里叶级数，引入多个谐波分量，提取裂隙参数描述主轮廓。然后利用原始轮廓与主轮廓的残差表示为细节波动，根据4层离散小波变换将其分离为不同尺度的成分，其中粗尺度对应较大范围的起伏，中等尺度反映局部的凹凸。细尺度代表微小的表面纹理。最终融合主轮廓和细节波动，并应用Bootstrap算法评估模型参数，准确拟合了24条“正弦状”裂隙，其中图3-1的一条裂隙的参数为，，，。对离散坐标点的选取分",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M27",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 307,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "c5d89a8d89358c8ce04f55b74943d994d6b5b606e562b5e55e8e69e5a3e765e7",
+      "corpus_relative_path": "2022年研究生数学建模优秀论文选/E/E22106110005.pdf",
+      "year": 2022,
+      "question": "E",
+      "pdf_page": 3,
+      "evidence_level": "摘要声明",
+      "quote": "本文采取熵值法-Topsis综合评价法客观衡量各指标对板结化的影响，使用K-Means方法将评价结果分为3类，量化土壤板结化等级。",
+      "purpose": "先综合评价板结程度，再按评价结果划分等级；‘客观衡量’是作者摘要措辞，不作为因果证据",
+      "context_whitespace_removed": "2因素的影响，本文采取熵值法-Topsis综合评价法客观衡量各指标对板结化的影响，使用K-Means方法将评价结果分为3类，量化土壤板结化等级。基于沙漠化程度指数预测模型，将放牧方式和放牧强度任意组合，利用K-Means方法进行聚类，得到不同放牧强度下沙漠化程度指数值。以沙漠化程度、板结化程度最小构建多目标优化模型，采用基于动态线性标定的精英遗传算法求解。针对问题五，可持续发展体现",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 3,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M28",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 256,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "6adc2185fdcee00276ce0b4e61bbe4bb5c97cb1cec579d9cc33c199d1715a8b0",
+      "corpus_relative_path": "2021年研究生数学建模优秀论文选/6.16 数模论文/D/D21104860088.pdf",
+      "year": 2021,
+      "question": "D",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "随后选择可解释性的SHAP算法分析前20个分子描述符对生物活性的正负影响程度。",
+      "purpose": "解释回归模型采用的分子描述符贡献，不升级为药物因果机制",
+      "context_whitespace_removed": "种特征重要性计算方法进行特征重要性排序，筛选出前20个对生物活性最具有显著影响的分子描述符，发现MDEC-23、LipoaffinityIndex、maxHsOH在三种特征重要性计算算法下均排名前三，随后选择可解释性的SHAP算法分析前20个分子描述符对生物活性的正负影响程度。针对问题二（生物活性定值预测），首先，本文构建了基于决策树、逻辑回归、线性回归、LightGradientBoostingMachine（LightGBM）等十二类算法的ERα生物活性的定量回归预测模型，为了更好地筛选出重要的描述符，在次选",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M28",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 414,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "bbd2095e8eac7257fc2852581e7453ce7e01dc1c4b3da46ac79811fde7697d08",
+      "corpus_relative_path": "2025年研究生数学建模竞赛优秀论文选/E题优秀论文/E题-高速列车轴承智能故障诊断问题.pdf",
+      "year": 2025,
+      "question": "E",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "事后可解释性采用SHAP进行局部样本和单样本分析",
+      "purpose": "对轴承故障迁移分类作事后解释",
+      "context_whitespace_removed": "合直观认知。迁移过程可解释性通过t-SNE可视化与量化指标体现：迁移后特征分布从域分离变为高度混合，MMD值从0.89降至0.15，特征内聚性和跨域匹配度均提升至0.9，证明知识迁移有效且保留判别性。事后可解释性采用SHAP进行局部样本和单样本分析，显示模型决策聚焦于故障特征频点，与包络谱机理一致；可解释性指标（如保真度从0.08升至0.27、类内一致性从0.42升至0.75）表明迁移后目标域解释性接近源域水平。分析成果为迁移诊断提供了多维度可审计依据，增强模型在工程应用中的可信度。",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M29",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 58,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "fdcb507dad2ea1c4bb2e46c6f2df7b9076cab8040b877474ff8736db9ae9800e",
+      "corpus_relative_path": "2016年研究生数学建模竞赛优秀论文选/第十三届优秀论文/B10248299.pdf",
+      "year": 2016,
+      "question": "B",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "然后分别使用卡方检验方法和逻辑回归模型对剩余位点进行建模",
+      "purpose": "在SNP质控后分析位点与疾病状态的关联；不因摘要写‘致病’而认定因果",
+      "context_whitespace_removed": "，并且根据基因型进行0,1,2三个数值编码。针对问题二，首先依据最小等位基因频率（MAF）控制以及Hardy-Weinberg平衡控制对题目所给数据进行SNP质量筛选，剔除97个不符合质量要求的位点；然后分别使用卡方检验方法和逻辑回归模型对剩余位点进行建模，最后通过显著性检验对位点与遗传疾病A进行显著性水平分析，找出显著的致病位点，并结合两种模型综合分析确定了致病位点的合理性。针对问题三，分别采用逻辑回归模型和SKAT模型对由位点组合的基因进行建模，通过假设检验的方法，确定了致病基因，最后结",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M30",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 58,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "fdcb507dad2ea1c4bb2e46c6f2df7b9076cab8040b877474ff8736db9ae9800e",
+      "corpus_relative_path": "2016年研究生数学建模竞赛优秀论文选/第十三届优秀论文/B10248299.pdf",
+      "year": 2016,
+      "question": "B",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "针对问题三，分别采用逻辑回归模型和SKAT模型对由位点组合的基因进行建模",
+      "purpose": "将基因组合与二分类疾病结局作关联建模，并与SKAT作对照；本条不把SKAT视作Logistic变体",
+      "context_whitespace_removed": "符合质量要求的位点；然后分别使用卡方检验方法和逻辑回归模型对剩余位点进行建模，最后通过显著性检验对位点与遗传疾病A进行显著性水平分析，找出显著的致病位点，并结合两种模型综合分析确定了致病位点的合理性。针对问题三，分别采用逻辑回归模型和SKAT模型对由位点组合的基因进行建模，通过假设检验的方法，确定了致病基因，最后结合问题二的结果以及对两种模型分别对其自变量的独立性假设分析，说明SKAT模型的结果比逻辑回归的结果更可靠。针对问题四，首先采用metaCCA算法，得到位点与性状之间的典型关联系数，随后通过统计检验",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    },
+    {
+      "method_id": "M31",
+      "status": "PASS",
+      "unified_classification_index_zero_based": 389,
+      "source_unified_index": "references/paper-index.json",
+      "sha256": "7d86005f5321da9836ebb158952d8ad3eb65c9a1e73b7f6d4fe6c1d7fb9e67af",
+      "corpus_relative_path": "2024年研究生数学建模竞赛优秀论文选/D/D24106570027.pdf",
+      "year": 2024,
+      "question": "D",
+      "pdf_page": 2,
+      "evidence_level": "摘要声明",
+      "quote": "在指标选择上除了常规降雨量指标外，使用了Moran’sI、变差系数（CV）。",
+      "purpose": "降水及土地利用时空特征分析中检查空间结构；不据摘要推断具体空间权重或因果关系",
+      "context_whitespace_removed": "、多维时空分析模型来描述降水量和土地利用/覆被在1990-2020年间的时空演化特征，通过结合时间序列、空间自相关分析等方法。使用经过克里金（Kriging）插值、栅格矢量化、叠加分析等预处理的数据，在指标选择上除了常规降雨量指标外，使用了Moran’sI、变差系数（CV）。针对降雨量特征建立了ARIMA模型、Mann-Kendall检验、长短期记忆网络（LSTM）神经网络模型的描述性方法。针对土地利用/土地覆被类型使用5个指标构建了土地动态度分析、Theil-SenMedian趋势分析的描述性方法。其中拟合模",
+      "quote_check": "匹配原逐页文本，且在本轮已阅读的去连续空白后前3300字符范围内",
+      "read_scope": [
+        {
+          "pdf_page": 2,
+          "scope": "本轮实际阅读该页去连续空白后前3300字符；所引段落属于摘要/摘要续页，未升级为正文实施。",
+          "full_text_read": false
+        }
+      ]
+    }
+  ]
+}

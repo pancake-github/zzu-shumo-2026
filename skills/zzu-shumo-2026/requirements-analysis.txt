@@ -1,0 +1,17 @@
+# 以下均为可选分析依赖；核心安装与元数据检索无需安装本文件。
+# 这些范围表达兼容性边界，并非逐一组合验证过的锁定环境。
+# 建议使用 Python >= 3.10 的独立虚拟环境，由 pip 按当前 Python 版本解析兼容版本。
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.10,<2
+scikit-learn>=1.3,<2
+matplotlib>=3.9,<4
+SciencePlots>=2.1,<3
+jupyterlab>=4.0,<5
+ipykernel>=6.25,<8
+openpyxl>=3.1,<4
+statsmodels>=0.14,<1
+python-docx>=1.1,<2
+python-pptx>=0.6.23,<2
+pypdf>=4,<7
+Pillow>=10,<13

@@ -1,0 +1,36 @@
+{
+  "file": "table_1.png",
+  "machine_status": "PASS",
+  "pixels": [
+    4110,
+    1700
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "fonts": {
+    "chinese": "SimSun",
+    "latin_digits": "Times New Roman",
+    "chinese_file": "simsun.ttc",
+    "latin_file": "times.ttf",
+    "fallback_used": false,
+    "math": "Times New Roman + STIX fallback",
+    "external_tex": false
+  },
+  "sources": [
+    {
+      "file": "table_content.json",
+      "sha256": "d2ad4c66aa42c89991f348e08b4c268e69bc5f9dafc89fdb30bd6f43dd5fee32"
+    }
+  ],
+  "errors": [],
+  "render_warnings": [],
+  "checked": [
+    "PNG dimensions and DPI",
+    "missing glyph warnings",
+    "text inside canvas",
+    "explicit same-row alignment groups"
+  ],
+  "visual_review": "required: inspect text overlaps, data visibility, formulas, titles and line distinction at final size"
+}

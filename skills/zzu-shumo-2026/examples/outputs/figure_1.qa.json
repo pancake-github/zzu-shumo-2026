@@ -1,0 +1,36 @@
+{
+  "file": "figure_1.png",
+  "machine_status": "PASS",
+  "pixels": [
+    3779,
+    2551
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "fonts": {
+    "chinese": "SimSun",
+    "latin_digits": "Times New Roman",
+    "chinese_file": "simsun.ttc",
+    "latin_file": "times.ttf",
+    "fallback_used": false,
+    "math": "Times New Roman + STIX fallback",
+    "external_tex": false
+  },
+  "sources": [
+    {
+      "file": "function_values.csv",
+      "sha256": "08ea3607dcc31d8a0162a0d5890b287ceebcd511c1832cf6d8db0b0b0e8e8124"
+    }
+  ],
+  "errors": [],
+  "render_warnings": [],
+  "checked": [
+    "PNG dimensions and DPI",
+    "missing glyph warnings",
+    "text inside canvas",
+    "explicit same-row alignment groups"
+  ],
+  "visual_review": "required: inspect text overlaps, data visibility, formulas, titles and line distinction at final size"
+}

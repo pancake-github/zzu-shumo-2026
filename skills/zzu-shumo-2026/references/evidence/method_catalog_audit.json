@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "summary": {
+    "method_family_count": 31,
+    "mapping_status_counts": {
+      "部分对应": 9,
+      "完全对应": 14,
+      "未覆盖": 8
+    },
+    "local_quote_count": 48,
+    "evidence_levels": {
+      "摘要声明": 48
+    },
+    "most_registered_families_lower_bounds": [
+      {
+        "method_family": "启发式与元启发式搜索",
+        "count": 34
+      },
+      {
+        "method_family": "特征筛选与融合：RFE、树重要性、相关/互信息",
+        "count": 19
+      },
+      {
+        "method_family": "CNN、LSTM、图网络与深度模型融合",
+        "count": 19
+      },
+      {
+        "method_family": "BP前馈网络与MLP回归",
+        "count": 18
+      },
+      {
+        "method_family": "数学规划：线性、整数与非线性约束优化",
+        "count": 16
+      },
+      {
+        "method_family": "梯度提升树家族：XGBoost、LightGBM、GBDT/HGBT",
+        "count": 12
+      },
+      {
+        "method_family": "K-means及初始化变体",
+        "count": 9
+      },
+      {
+        "method_family": "PCA与核PCA降维",
+        "count": 8
+      }
+    ],
+    "frequency_ranking_scope": "仅M01—M25、2019—2021年的114篇主要方法登记；新增6条未参加频次排名。"
+  },
+  "original25_audit": "未随公开包提供的研究来源：method_catalog_audit_original25.json",
+  "extension_audit": "references/evidence/method_catalog_extension_quote_audit.json",
+  "original25_entries_unchanged": true,
+  "not_checked": [
+    "全部419篇的方法频次",
+    "选用论文正文实施",
+    "数值结果与代码复现",
+    "SPSSPRO在线运行"
+  ]
+}

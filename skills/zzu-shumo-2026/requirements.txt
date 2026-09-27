@@ -1,0 +1,4 @@
+# 核心安装器与技能包中的元数据检索、路径检查脚本仅使用 Python 标准库。
+# 核心运行环境：Python >= 3.10；本文件没有需要 pip 安装的第三方库。
+# 如需在 Jupyter 中开展数据分析、建模和绘图，可安装 requirements-analysis.txt。
+# Python 版本要求请通过 python --version 检查；requirements 文件不负责安装 Python。

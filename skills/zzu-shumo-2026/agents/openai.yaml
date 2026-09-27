@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究生数学建模工作台"
+  short_description: "按题意处理数据、验证模型与整理数模论文，自动应用规范并减少重复确认"
+  default_prompt: "使用 $zzu-shumo-2026，根据当前题目和已有材料完成授权任务，直接应用适合当前情境的规范，保留科学依据与用户指定边界。"

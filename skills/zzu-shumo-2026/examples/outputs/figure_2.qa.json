@@ -1,0 +1,36 @@
+{
+  "file": "figure_2.png",
+  "machine_status": "PASS",
+  "pixels": [
+    4110,
+    2480
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "fonts": {
+    "chinese": "SimSun",
+    "latin_digits": "Times New Roman",
+    "chinese_file": "simsun.ttc",
+    "latin_file": "times.ttf",
+    "fallback_used": false,
+    "math": "Times New Roman + STIX fallback",
+    "external_tex": false
+  },
+  "sources": [
+    {
+      "file": "wave_values.csv",
+      "sha256": "9aed1db9a665a46b9b31b79c6889a2137b7ecdc5e2d7550f9cfaa04cac12587e"
+    }
+  ],
+  "errors": [],
+  "render_warnings": [],
+  "checked": [
+    "PNG dimensions and DPI",
+    "missing glyph warnings",
+    "text inside canvas",
+    "explicit same-row alignment groups"
+  ],
+  "visual_review": "required: inspect text overlaps, data visibility, formulas, titles and line distinction at final size"
+}
